@@ -6,12 +6,9 @@ const options = {
     info: {
       title: "Restaurant Dish Search API",
       version: "1.0.0",
-      description:
-        "Search restaurants by dish name + price range, ranked by total orders of that dish.",
     },
-    servers: [{ url: "http://localhost:3000" }],
+    servers: [{ url: "/" }],
   },
-
   apis: ["./src/**/*.js"],
 };
 
